@@ -1,0 +1,45 @@
+.signin-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-box {
+  width: 420px;
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.signin-box h2 {
+  margin-bottom: 25px;
+}
+
+.signin-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.signin-box button {
+  width: 100%;
+  padding: 10px;
+  background: #1b9aaa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.password-link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #1b9aaa;
+  cursor: pointer;
+}

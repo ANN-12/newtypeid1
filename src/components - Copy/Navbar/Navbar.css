@@ -1,0 +1,130 @@
+.navbar {
+  width: 100%;
+  background-color: #0d1b2a; 
+  padding: 15px 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  user-select: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-btn {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: white;
+  color: #0d1b2a;
+}
+
+.signup {
+  background-color: #1b9aaa;
+  border-color: #1b9aaa;
+}
+
+.signup:hover {
+  background-color: #145f66;
+  color: white;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+
+.signin-box {
+  background: white;
+  width: 420px;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.signin-box h3 {
+  margin-bottom: 10px;
+  color: #0d1b2a;
+}
+
+.sentence {
+  font-weight: bold;
+  margin: 12px 0;
+  color: #1b1b1b;
+}
+
+.signin-box input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.actions button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.actions button:first-child {
+  background-color: #1b9aaa;
+  color: white;
+}
+
+.actions button:last-child {
+  background-color: #ccc;
+}

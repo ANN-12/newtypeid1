@@ -1,0 +1,27 @@
+.background {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  position: relative;
+  padding-top: 70px; /* to offset navbar height */
+}
+
+.left {
+  flex: 1; /* left half with background */
+}
+
+.right {
+  flex: 1; /* right half for text */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100px;
+  color: white;
+}
+
+.right h1 {
+  font-size: 42px;
+  font-weight: 600;
+}

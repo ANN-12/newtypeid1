@@ -1,0 +1,115 @@
+/* ===== Signup Wrapper ===== */
+.signup-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* IMPORTANT: push content below fixed navbar */
+  padding-top: 90px;
+  box-sizing: border-box;
+}
+
+
+/* ===== Signup Box ===== */
+.signup-box {
+  width: 420px;
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* ===== Headings ===== */
+.signup-box h2 {
+  color: #0d1b2a;
+  margin-bottom: 8px;
+}
+
+.signup-box .subtitle {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+/* ===== Inputs ===== */
+.signup-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.signup-box input:focus {
+  outline: none;
+  border-color: #1b9aaa;
+}
+
+/* ===== Sentence Box ===== */
+.sentence-box {
+  background: #f1f5f9;
+  border-left: 4px solid #1b9aaa;
+  padding: 10px;
+  margin: 12px 0;
+  font-weight: 600;
+  color: #111;
+  border-radius: 4px;
+}
+
+/* ===== Attempt Counter ===== */
+.attempt {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* ===== Buttons ===== */
+.signup-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #1b9aaa;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-box button:hover {
+  background: #145f66;
+}
+
+/* ===== Success / Error Text ===== */
+.success {
+  color: green;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+/* ===== Animation ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
